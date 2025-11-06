@@ -1,0 +1,16 @@
+{
+  "faq": [
+    {
+      "q": "How do I start?",
+      "a": "Book the Foundational Longevity Assessment to begin your journey."
+    },
+    {
+      "q": "Do you take insurance?",
+      "a": "We operate out-of-network. You\u2019ll receive documentation for possible reimbursement."
+    },
+    {
+      "q": "Where do I message my care team?",
+      "a": "Use the SimplePractice Client Portal for all PHI and secure communications."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "progevity-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "clsx": "2.1.1",
+    "next": "14.2.5",
+    "next-themes": "0.3.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "0.5.9",
+    "autoprefixer": "^10.4.20",
+    "nanoid": "^3.3.7",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.13"
+  }
+}
