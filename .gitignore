@@ -24,3 +24,8 @@ Thumbs.db
 
 # Build caches
 *.log
+
+# Large local media
+public/hero-home.mp4
+public/hero-home.webm
+

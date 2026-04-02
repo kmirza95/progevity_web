@@ -1,42 +1,23 @@
-// components/FaqJsonLd.jsx
-'use client';
+export default function FaqJsonLd({ faqs }) {
+  if (!faqs || faqs.length === 0) return null;
 
-export default function FaqJsonLd() {
-  const data = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: [
-      {
-        '@type': 'Question',
-        name: 'Placeholder question one?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Answer coming soon.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'Placeholder question two?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Answer coming soon.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'Placeholder question three?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Answer coming soon.',
-        },
-      },
-    ],
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer
+      }
+    }))
   };
 
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
     />
   );
 }
