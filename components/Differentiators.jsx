@@ -4,18 +4,18 @@ export default function Differentiators() {
   const items = [
     {
       kicker: "Phased, programmatic care",
-      title: "We design a roadmap — not a one-off consult",
-      body: "Care is structured in phases: clarify goals and baselines, stabilize what’s urgent, then layer on longevity strategies that fit your life, budget, and time horizon.",
+      title: "We design a roadmap, not a one-off consult",
+      body: "Care is structured in phases: clarify your goals, measure the biggest effect-size variables, project your health trajectory, and then work backwards to close the gap between where you are and where you want to be.",
     },
     {
       kicker: "Multidisciplinary & data-driven",
       title: "One team, one story for your health data",
-      body: "MDs, CNS (nutrition), PT, psychologist, and sleep physiologist review your case together. Labs, imaging, wearables, and genomics are translated into a single, coherent plan.",
+      body: "Your own clinical support team empowered by a medical doctor, nutritionist, physical therapist, sleep physiologist, and psychologist to review your case together. All of your complex, disparate health data is translated into a single, coherent plan that fits your life, budget, and time horizon.",
     },
     {
       kicker: "Longevity with accountability",
       title: "Clear priorities, measurable progress",
-      body: "We focus on the majors: metabolic health, movement, sleep, and mental resilience. Each phase ends with 1–3 concrete next steps and clear markers to track over time.",
+      body: "We focus on the majors, not the minors, to adjust your health compass. The foundational lifestyle pillars of physical activity and mobility, nutrition and diet, sleep quality and quantity, and mental and emotional health form the backbone of your care.",
     },
   ];
 
@@ -32,13 +32,12 @@ export default function Differentiators() {
               How we&apos;re different
             </p>
             <h2 className="mt-2 text-2xl font-semibold tracking-tight text-slate-900 sm:text-3xl">
-              Precision longevity care that still feels human.
+              Precision longevity care that focusses on the largest effect sizes.
             </h2>
           </div>
 
           <p className="max-w-xl text-sm leading-relaxed text-slate-600">
-            Progevity combines root-cause medicine, longevity science, and practical
-            behavior design. The result is a coordinated care program you can
+            Progevity brings a multi-million dollar program for professional athletes to the masses. Every  patient gets access to a multidisciplinary care team of top clinicians across foundational lifestyle pillars. The result is a coordinated care program you can
             actually follow—built around your context, constraints, and long-term
             goals.
           </p>

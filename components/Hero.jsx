@@ -17,8 +17,7 @@ export default function Hero(){
         <div className="relative z-10 px-6 md:px-12 py-20 md:py-32 text-white">
           <h1>Seize Today, Secure Tomorrow</h1>
           <p className="mt-4 max-w-3xl text-lg opacity-95">
-            Evidence-based integrative & longevity care. Scheduling, billing, telehealth, and secure
-            messaging are handled through our SimplePractice Client Portal.
+          Elite-Athlete Care at a Fraction of the Cost: Access a world-class multidisciplinary clinical team for your longevity journey.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link href="/booking" className="btn-primary">Kickstart Your Health Journey</Link>

@@ -50,8 +50,8 @@ export default function Testimonials() {
           </div>
           <p className="text-sm sm:text-base leading-relaxed text-slate-600">
             Every patient story is unique, but common themes emerge: clearer
-            plans, measurable progress, and a care team that translates dense
-            science into something you can actually live with day-to-day.
+            plans, measurable progress, and an expert care team that translates dense
+            science into actionable next-steps to actually move the health needle.
           </p>
         </div>
 
